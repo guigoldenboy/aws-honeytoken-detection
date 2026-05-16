@@ -207,3 +207,4 @@ An alert email should arrive within 60 seconds.
 - The S3 honey bucket has no legitimate use — any access is suspicious
 - No sensitive information is hardcoded — all ARNs and account IDs use environment variables or placeholders
 - CloudTrail logs are stored in a dedicated bucket separate from the honey bucket
+- Component names such as `honeytoken-backup-svc` and `honey-leaked-credentials` are intentionally descriptive for educational purposes. In a real environment, use convincing names that blend in with legitimate infrastructure (e.g. `backup-service-prod`, `legacy-deploy-svc`) — the effectiveness of a honeytoken depends on the attacker not recognizing it as a trap.

@@ -91,8 +91,6 @@ investigate immediately.
 
 ## Setup
 
-> ⚠️ Never commit real credentials to this repository. Use environment variables or AWS Secrets Manager for any sensitive values.
-
 ### 1. Create the IAM honeytoken
 
 ```bash
